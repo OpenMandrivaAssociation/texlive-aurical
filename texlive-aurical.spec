@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/aurical
+# catalog-date 2008-07-27 23:11:56 +0200
+# catalog-license lppl
+# catalog-version 1.5
 Name:		texlive-aurical
 Version:	1.5
 Release:	1
@@ -121,6 +127,7 @@ a 'long s'.
 %{_texmfdistdir}/tex/latex/aurical/aurical.sty
 %doc %{_texmfdistdir}/doc/latex/aurical/aurical.pdf
 %doc %{_texmfdistdir}/doc/latex/aurical/aurical.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -131,3 +138,5 @@ a 'long s'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
