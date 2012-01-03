@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-aurical
 Version:	1.5
-Release:	1
+Release:	2
 Summary:	Calligraphic fonts for use with LaTeX in T1 encoding
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/aurical
