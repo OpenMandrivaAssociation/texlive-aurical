@@ -128,3 +128,18 @@ a 'long s'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5-2
++ Revision: 749423
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5-1
++ Revision: 717869
+- texlive-aurical
+- texlive-aurical
+- texlive-aurical
+- texlive-aurical
+- texlive-aurical
+
